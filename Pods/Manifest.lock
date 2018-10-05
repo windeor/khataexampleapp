@@ -1,0 +1,16 @@
+PODS:
+  - khataframework (1.0.2)
+
+DEPENDENCIES:
+  - khataframework (from `../KhataFrameworkDemo/`)
+
+EXTERNAL SOURCES:
+  khataframework:
+    :path: "../KhataFrameworkDemo/"
+
+SPEC CHECKSUMS:
+  khataframework: 5aaffe5da233db4edd449f342a3235b513339c49
+
+PODFILE CHECKSUM: 3b894eb1628ed659f1d824f0a07f329e2b81b1df
+
+COCOAPODS: 1.5.3

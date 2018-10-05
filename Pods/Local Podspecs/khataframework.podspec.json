@@ -1,0 +1,23 @@
+{
+  "name": "khataframework",
+  "version": "1.0.2",
+  "summary": "A short description of DemoFramework.",
+  "description": "A short description of DemoFramework",
+  "homepage": "https://github.com/windeor/khatapod.git",
+  "license": "MIT",
+  "authors": {
+    "Sagar Dhavare": "windeor@gmail.com"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "https://github.com/windeor/khatapod.git",
+    "tag": "1.0.2"
+  },
+  "swift_version": "4.0",
+  "source_files": "KhataFrameworkDemo/**/*.{h,m,swift}",
+  "resources": [
+    "KhataFrameworkDemo/**/*.{storyboard}"
+  ]
+}

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KhataApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DEu-TQ-Nxf">
+                                <rect key="frame" x="16" y="303.5" width="343" height="60"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qm1-iM-Txg">
+                                        <rect key="frame" x="197" y="10" width="138" height="40"/>
+                                        <color key="backgroundColor" red="0.16090933658778911" green="0.76995628238341962" blue="0.72580685381696564" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="gyx-zx-IBs"/>
+                                            <constraint firstAttribute="width" constant="138" id="vrU-ue-22d"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <state key="normal" title="Apply Now.">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="openKhataApp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3hl-Qf-neN"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Khata App" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bQV-tY-E5D">
+                                        <rect key="frame" x="8" y="0.0" width="150" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="3l7-2t-Gb6"/>
+                                            <constraint firstAttribute="height" constant="60" id="jq7-4o-uaF"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.16090933660000001" green="0.76995628240000002" blue="0.72580685379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="29x-qo-CKw"/>
+                                    <constraint firstAttribute="bottom" secondItem="Qm1-iM-Txg" secondAttribute="bottom" constant="10" id="56B-Vn-Fjz"/>
+                                    <constraint firstAttribute="bottom" secondItem="bQV-tY-E5D" secondAttribute="bottom" id="L5X-6p-sQu"/>
+                                    <constraint firstAttribute="trailing" secondItem="Qm1-iM-Txg" secondAttribute="trailing" constant="8" id="doL-i7-KbT"/>
+                                    <constraint firstItem="bQV-tY-E5D" firstAttribute="top" secondItem="DEu-TQ-Nxf" secondAttribute="top" id="k37-Kw-xmo"/>
+                                    <constraint firstItem="Qm1-iM-Txg" firstAttribute="top" secondItem="DEu-TQ-Nxf" secondAttribute="top" constant="10" id="la5-I4-t8n"/>
+                                    <constraint firstItem="bQV-tY-E5D" firstAttribute="leading" secondItem="DEu-TQ-Nxf" secondAttribute="leading" constant="8" id="qGz-dz-ooo"/>
+                                </constraints>
+                            </view>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aadhar Number Is:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IVV-gV-gGs">
+                                <rect key="frame" x="16" y="371.5" width="160" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="8iP-NH-qR7"/>
+                                    <constraint firstAttribute="width" constant="160" id="Wid-T3-tj9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234567899-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BRA-oj-LR0">
+                                <rect key="frame" x="184" y="371.5" width="175" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="175" id="27c-no-llP"/>
+                                    <constraint firstAttribute="height" constant="41" id="Kpe-Vb-Dy1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="DEu-TQ-Nxf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="E6o-VT-r20"/>
+                            <constraint firstItem="IVV-gV-gGs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="FQQ-Zq-gXh"/>
+                            <constraint firstItem="IVV-gV-gGs" firstAttribute="top" secondItem="DEu-TQ-Nxf" secondAttribute="bottom" constant="8" id="HSl-J0-C8E"/>
+                            <constraint firstItem="BRA-oj-LR0" firstAttribute="top" secondItem="DEu-TQ-Nxf" secondAttribute="bottom" constant="8" id="Qih-LG-PS2"/>
+                            <constraint firstItem="DEu-TQ-Nxf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="UYw-Yz-FnT"/>
+                            <constraint firstItem="BRA-oj-LR0" firstAttribute="leading" secondItem="IVV-gV-gGs" secondAttribute="trailing" constant="8" id="Vur-ED-E9e"/>
+                            <constraint firstItem="DEu-TQ-Nxf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="a0v-wE-hHW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BRA-oj-LR0" secondAttribute="trailing" constant="16" id="bBX-Vz-ocn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DEu-TQ-Nxf" secondAttribute="trailing" constant="16" id="ugs-oH-log"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="aadaharNumberTextLabel" destination="IVV-gV-gGs" id="5Es-Vn-vZy"/>
+                        <outlet property="aadharNumberLabel" destination="BRA-oj-LR0" id="05h-Ua-LYP"/>
+                        <outlet property="khataAppBtn" destination="Qm1-iM-Txg" id="jpy-QZ-er9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="96.7016491754123"/>
+        </scene>
+    </scenes>
+</document>

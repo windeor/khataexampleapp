@@ -1,0 +1,6 @@
+module Pods_KhataApp {
+  umbrella header "Pods-KhataApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041DD69C7C6E363B2615FB60C2F7F288 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4C7A9BF0D696A7D5AE276F5632F732EB /* AadharNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43561742D9255E1DAE12315E1554ADCB /* AadharNumberViewController.swift */; };
+		5194DC70611F439062208EC69DCFFEAE /* Pods-KhataApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0CF112FE3E84E75C60C8DF67452D5D8 /* Pods-KhataApp-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6CBB579F22259398FE60708EB3463B25 /* khataframework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EE42E7FBC8CF5F50D45EFB2C276A9C3 /* khataframework-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		87A0FEBC23EE43D92CF860091E07D1A6 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A448A2710BA0539BAE915A50F116A5 /* Service.swift */; };
+		939E32A95FE7D00FB4B88823D6081ABC /* Pods-KhataApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0EC4FB7485A62B2B109599671B04C9 /* Pods-KhataApp-dummy.m */; };
+		96FCDB12A884FB089C66ED037B8CFA58 /* khataframework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABEAEEE66B82CF781ABD02F0C98D5DC /* khataframework-dummy.m */; };
+		AC30EB1349FC326C496F3C0AD623688E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D8A02FCF054A0B134C1ED65A546595D0 /* KhataFrameworkDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 39B492B6E775295AF65901ADADBB1D27 /* KhataFrameworkDemo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C26918E3C41165240B459AAD46552325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 738FE16BCC85B63A0EF03D7EE42E4C40;
+			remoteInfo = khataframework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043643FEBD8ED6AD41E23185FCDAC603 /* libkhataframework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libkhataframework.a; path = libkhataframework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1176C30748EC6037F231A271D7E3B053 /* Pods-KhataApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KhataApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		37A448A2710BA0539BAE915A50F116A5 /* Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Service.swift; path = KhataFrameworkDemo/Service.swift; sourceTree = "<group>"; };
+		39B492B6E775295AF65901ADADBB1D27 /* KhataFrameworkDemo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KhataFrameworkDemo.h; path = KhataFrameworkDemo/KhataFrameworkDemo.h; sourceTree = "<group>"; };
+		40C887DA43526FCE9EBBC1C1DE220146 /* khataframework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = khataframework.xcconfig; sourceTree = "<group>"; };
+		43561742D9255E1DAE12315E1554ADCB /* AadharNumberViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AadharNumberViewController.swift; sourceTree = "<group>"; };
+		4C6CAFEB6E6E04D92CE89B829875E03A /* libPods-KhataApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-KhataApp.a"; path = "libPods-KhataApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		581B0EE2A2C2F3FCB09E16400B4756E5 /* Pods-KhataApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KhataApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		5E0EC4FB7485A62B2B109599671B04C9 /* Pods-KhataApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KhataApp-dummy.m"; sourceTree = "<group>"; };
+		62EC2939907DDC9308E6FA19BDA80979 /* khataframework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = khataframework.modulemap; path = ../../Headers/Public/khataframework/khataframework.modulemap; sourceTree = "<group>"; };
+		6461113D974B80BA64B9379595FC40F6 /* Pods-KhataApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KhataApp.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6ABEAEEE66B82CF781ABD02F0C98D5DC /* khataframework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "khataframework-dummy.m"; sourceTree = "<group>"; };
+		76A3B20E90E7CF503CBE96984A4D303E /* Pods-KhataApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KhataApp-resources.sh"; sourceTree = "<group>"; };
+		81F7805DAD9A3482B1175F32DB70E9DF /* Pods-KhataApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KhataApp.modulemap"; sourceTree = "<group>"; };
+		8EE42E7FBC8CF5F50D45EFB2C276A9C3 /* khataframework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "khataframework-umbrella.h"; path = "../../Headers/Public/khataframework/khataframework-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C0E1E4EE336CD1ED68D587F6D0341446 /* Pods-KhataApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KhataApp-frameworks.sh"; sourceTree = "<group>"; };
+		DA72C82EE186F5D8F20FD32BA9D85F2B /* Pods-KhataApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KhataApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DB6D52112171BCA70601E3FDD0215B0C /* khataapp.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = khataapp.storyboard; path = KhataFrameworkDemo/khataapp.storyboard; sourceTree = "<group>"; };
+		E0CF112FE3E84E75C60C8DF67452D5D8 /* Pods-KhataApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KhataApp-umbrella.h"; sourceTree = "<group>"; };
+		EB02F3572FAF536B19A48A038335C698 /* khataframework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = khataframework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EE2107448406156B9FE465D40EF218C2 /* khataframework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "khataframework-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A5A61E391A6800ED9A3A0926DE75721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041DD69C7C6E363B2615FB60C2F7F288 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58EC912D0774A6E46B96C660B1EA5158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC30EB1349FC326C496F3C0AD623688E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A666DC34003DEA2021E0EF91FD12ADA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DB6D52112171BCA70601E3FDD0215B0C /* khataapp.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		40D5767F27A540693747F692F9431585 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				43561742D9255E1DAE12315E1554ADCB /* AadharNumberViewController.swift */,
+			);
+			name = Sources;
+			path = KhataFrameworkDemo/Sources;
+			sourceTree = "<group>";
+		};
+		56370CCCA91B90E1ABBFCE3A0401162E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043643FEBD8ED6AD41E23185FCDAC603 /* libkhataframework.a */,
+				4C6CAFEB6E6E04D92CE89B829875E03A /* libPods-KhataApp.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D7D1118CF174457EB9E23EC00737CABE /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				56370CCCA91B90E1ABBFCE3A0401162E /* Products */,
+				ED36AE430B833FDD0868D39B49C39569 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8DDF44D7FB8D39EF8A954E946D64144D /* khataframework */ = {
+			isa = PBXGroup;
+			children = (
+				39B492B6E775295AF65901ADADBB1D27 /* KhataFrameworkDemo.h */,
+				37A448A2710BA0539BAE915A50F116A5 /* Service.swift */,
+				FB79BEABB0175737DC8E64851A1D4214 /* Pod */,
+				0A666DC34003DEA2021E0EF91FD12ADA /* Resources */,
+				40D5767F27A540693747F692F9431585 /* Sources */,
+				F36CE1261C43454E161B7F276F92EA21 /* Support Files */,
+			);
+			name = khataframework;
+			path = ../../KhataFrameworkDemo;
+			sourceTree = "<group>";
+		};
+		BC3B22006C6E8EC8D0AB44434FD81F12 /* Pods-KhataApp */ = {
+			isa = PBXGroup;
+			children = (
+				81F7805DAD9A3482B1175F32DB70E9DF /* Pods-KhataApp.modulemap */,
+				1176C30748EC6037F231A271D7E3B053 /* Pods-KhataApp-acknowledgements.markdown */,
+				581B0EE2A2C2F3FCB09E16400B4756E5 /* Pods-KhataApp-acknowledgements.plist */,
+				5E0EC4FB7485A62B2B109599671B04C9 /* Pods-KhataApp-dummy.m */,
+				C0E1E4EE336CD1ED68D587F6D0341446 /* Pods-KhataApp-frameworks.sh */,
+				76A3B20E90E7CF503CBE96984A4D303E /* Pods-KhataApp-resources.sh */,
+				E0CF112FE3E84E75C60C8DF67452D5D8 /* Pods-KhataApp-umbrella.h */,
+				DA72C82EE186F5D8F20FD32BA9D85F2B /* Pods-KhataApp.debug.xcconfig */,
+				6461113D974B80BA64B9379595FC40F6 /* Pods-KhataApp.release.xcconfig */,
+			);
+			name = "Pods-KhataApp";
+			path = "Target Support Files/Pods-KhataApp";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D7D1118CF174457EB9E23EC00737CABE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DDF44D7FB8D39EF8A954E946D64144D /* khataframework */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		ED36AE430B833FDD0868D39B49C39569 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC3B22006C6E8EC8D0AB44434FD81F12 /* Pods-KhataApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F36CE1261C43454E161B7F276F92EA21 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				62EC2939907DDC9308E6FA19BDA80979 /* khataframework.modulemap */,
+				40C887DA43526FCE9EBBC1C1DE220146 /* khataframework.xcconfig */,
+				6ABEAEEE66B82CF781ABD02F0C98D5DC /* khataframework-dummy.m */,
+				EE2107448406156B9FE465D40EF218C2 /* khataframework-prefix.pch */,
+				8EE42E7FBC8CF5F50D45EFB2C276A9C3 /* khataframework-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../KhataApp/Pods/Target Support Files/khataframework";
+			sourceTree = "<group>";
+		};
+		FB79BEABB0175737DC8E64851A1D4214 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EB02F3572FAF536B19A48A038335C698 /* khataframework.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		18766B7421A68586B7E6EB89CDE511C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5194DC70611F439062208EC69DCFFEAE /* Pods-KhataApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		473655F02C877F8B9193D1F82F028652 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CBB579F22259398FE60708EB3463B25 /* khataframework-umbrella.h in Headers */,
+				D8A02FCF054A0B134C1ED65A546595D0 /* KhataFrameworkDemo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		738FE16BCC85B63A0EF03D7EE42E4C40 /* khataframework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B628E72B118B623D6C38915E1ACB1A9B /* Build configuration list for PBXNativeTarget "khataframework" */;
+			buildPhases = (
+				EE4CD281F37B85B7D854053FDCAF5CE2 /* Sources */,
+				1A5A61E391A6800ED9A3A0926DE75721 /* Frameworks */,
+				473655F02C877F8B9193D1F82F028652 /* Headers */,
+				83F96C201E93F9D82295F1F2B6740534 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = khataframework;
+			productName = khataframework;
+			productReference = 043643FEBD8ED6AD41E23185FCDAC603 /* libkhataframework.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CD437B4D8CD1DD7499224A52687C9392 /* Pods-KhataApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FECD5C74470EB97DCEC4291A8C554AA6 /* Build configuration list for PBXNativeTarget "Pods-KhataApp" */;
+			buildPhases = (
+				57258224A39DA2EE944B34AEF2D16D3F /* Sources */,
+				58EC912D0774A6E46B96C660B1EA5158 /* Frameworks */,
+				18766B7421A68586B7E6EB89CDE511C0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCE10F1AD08453326F20F30DF477CB34 /* PBXTargetDependency */,
+			);
+			name = "Pods-KhataApp";
+			productName = "Pods-KhataApp";
+			productReference = 4C6CAFEB6E6E04D92CE89B829875E03A /* libPods-KhataApp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 56370CCCA91B90E1ABBFCE3A0401162E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				738FE16BCC85B63A0EF03D7EE42E4C40 /* khataframework */,
+				CD437B4D8CD1DD7499224A52687C9392 /* Pods-KhataApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83F96C201E93F9D82295F1F2B6740534 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/khataframework/khataframework.modulemap",
+				"${PODS_ROOT}/Headers/Public/khataframework/khataframework-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/khataframework-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/khataframework/khataframework.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/khataframework/khataframework-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57258224A39DA2EE944B34AEF2D16D3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939E32A95FE7D00FB4B88823D6081ABC /* Pods-KhataApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4CD281F37B85B7D854053FDCAF5CE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C7A9BF0D696A7D5AE276F5632F732EB /* AadharNumberViewController.swift in Sources */,
+				96FCDB12A884FB089C66ED037B8CFA58 /* khataframework-dummy.m in Sources */,
+				87A0FEBC23EE43D92CF860091E07D1A6 /* Service.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCE10F1AD08453326F20F30DF477CB34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = khataframework;
+			target = 738FE16BCC85B63A0EF03D7EE42E4C40 /* khataframework */;
+			targetProxy = C26918E3C41165240B459AAD46552325 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2CE6D121AF193B2A4824327A91A1EAF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA72C82EE186F5D8F20FD32BA9D85F2B /* Pods-KhataApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KhataApp/Pods-KhataApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		596842861C05A7A7EE9C98896632F4F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6461113D974B80BA64B9379595FC40F6 /* Pods-KhataApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KhataApp/Pods-KhataApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		759179726CCAA6FF1C0E49C89F0A9030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40C887DA43526FCE9EBBC1C1DE220146 /* khataframework.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/khataframework/khataframework-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/khataframework/khataframework.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = khataframework;
+				PRODUCT_NAME = khataframework;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89EDA2098AF3A6B4DFB939B8B219DF81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40C887DA43526FCE9EBBC1C1DE220146 /* khataframework.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/khataframework/khataframework-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/khataframework/khataframework.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = khataframework;
+				PRODUCT_NAME = khataframework;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD8324D57CD462761E218EEA4EA91EC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */,
+				CD8324D57CD462761E218EEA4EA91EC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B628E72B118B623D6C38915E1ACB1A9B /* Build configuration list for PBXNativeTarget "khataframework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89EDA2098AF3A6B4DFB939B8B219DF81 /* Debug */,
+				759179726CCAA6FF1C0E49C89F0A9030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FECD5C74470EB97DCEC4291A8C554AA6 /* Build configuration list for PBXNativeTarget "Pods-KhataApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE6D121AF193B2A4824327A91A1EAF6 /* Debug */,
+				596842861C05A7A7EE9C98896632F4F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

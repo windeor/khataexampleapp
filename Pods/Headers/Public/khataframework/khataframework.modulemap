@@ -1,0 +1,6 @@
+module khataframework {
+  umbrella header "khataframework-umbrella.h"
+
+  export *
+  module * { export * }
+}
